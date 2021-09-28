@@ -1,5 +1,5 @@
-const { methods, routeRequest } = require('./lib/routes/index')
 const http = require('http')
+const { methods, routeRequest } = require('./lib/routes/index')
 const res = require('./lib/response')
 
 const high = () => {
